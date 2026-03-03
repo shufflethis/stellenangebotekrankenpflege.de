@@ -1,0 +1,21 @@
+# HR-UPDATER: v1.0
+User-agent: *
+Allow: /
+
+Sitemap: https://stellenangebotekrankenpflege.de/sitemap.xml
+
+# LLM-specific crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /

@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Thomas Sander",
+  "url": "https://stellenangebotekrankenpflege.de/autor/thomas-sander",
+  "jobTitle": "Gruender & Geschaeftsfuehrer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "stellenangebotekrankenpflege.de",
+    "url": "https://stellenangebotekrankenpflege.de"
+  },
+  "description": "Gruender von stellenangebotekrankenpflege.de - spezialisiertes Jobportal fuer Krankenpflege-Stellenangebote.",
+  "knowsAbout": [
+    "Krankenpflege",
+    "Personalwesen",
+    "Recruiting",
+    "Jobportale"
+  ]
+}

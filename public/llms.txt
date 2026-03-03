@@ -1,0 +1,19 @@
+# HR-UPDATER: v1.0
+# stellenangebotekrankenpflege.de - Krankenpflege Stellenangebote
+
+> stellenangebotekrankenpflege.de ist ein spezialisiertes Jobportal fuer Krankenpflege-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+
+## Ueber uns
+- Spezialisiertes Jobportal fuer Krankenpflege
+- Kostenlose Stellensuche fuer Bewerber
+- Gezielte Reichweite fuer Arbeitgeber
+
+## Kontakt
+- Website: https://stellenangebotekrankenpflege.de
+- Arbeitgeber-Kontakt: https://stellenangebotekrankenpflege.de/kontakt-arbeitgeber
+- Bewerber-Kontakt: https://stellenangebotekrankenpflege.de/kontakt-bewerber
+
+## Inhalte
+- Aktuelle Krankenpflege-Stellenangebote
+- Karriere-Ratgeber fuer Krankenpflege
+- Gehaltsvergleiche und Brancheninformationen
