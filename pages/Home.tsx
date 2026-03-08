@@ -12,6 +12,42 @@ import { ShieldCheck, Cross, FlaskConical, Thermometer } from 'lucide-react';
 const MOCK_JOBS: Job[] = [
   {
     id: '1',
+    title: 'Pflegefachmann/Pflegefachfrau (Gesundheits- und Krankenpflege) (m/w/d)',
+    company: 'Tempton Personaldienstleistungen GmbH NL Magdeburg Medical',
+    location: 'Haldensleben',
+    type: 'Vollzeit',
+    description: 'Pflegefachmann/Pflegefachfrau (Gesundheits- und Krankenpflege) (m/w/d)',
+    postedAt: '2026-03-06'
+  },
+  {
+    id: '2',
+    title: 'Pflegefachmann/Pflegefachfrau (m/w/d) Krankenpflege',
+    company: 'Tempton Personaldienstleistungen GmbH NL Magdeburg Medical',
+    location: 'Braunlage',
+    type: 'Vollzeit',
+    description: 'Pflegefachmann/Pflegefachfrau (m/w/d) Krankenpflege',
+    postedAt: '2026-03-06'
+  },
+  {
+    id: '3',
+    title: 'Pflegehelfer für stationäre Krankenpflege (m/w/d)',
+    company: 'Impuls Personal GmbH Filiale Köln',
+    location: 'Bergisch Gladbach',
+    type: 'Vollzeit',
+    description: 'Pflegehelfer für stationäre Krankenpflege (m/w/d)',
+    postedAt: '2026-03-05'
+  },
+  {
+    id: '4',
+    title: 'Gesundheits- und Krankenpflege Helfer (m/w/d)',
+    company: 'Impuls Personal GmbH Filiale Köln',
+    location: 'Bergisch Gladbach',
+    type: 'Vollzeit',
+    description: 'Gesundheits- und Krankenpflege Helfer (m/w/d)',
+    postedAt: '2026-03-05'
+  },
+  {
+    id: '5',
     title: 'Zahntechniker (m/w/d) für den Bereich CAD / CAM',
     company: 'DELABO.GROUPSofort-Bewerbung',
     location: 'Klein Rönnau',
@@ -20,7 +56,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-04'
   },
   {
-    id: '2',
+    id: '6',
     title: 'Hauswirtschaftliche Leitung (m/w/d) für unser Kinderhaus in Teil- oder Vollzeit',
     company: 'Kinder- und Jugendhilfe Weidenkorb',
     location: 'Löhne',
@@ -29,7 +65,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-04'
   },
   {
-    id: '3',
+    id: '7',
     title: 'Hauswirtschaftliche Leitung (m/w/d) für unser Kinderhaus in Teil- oder Vollzeit',
     company: 'Kinder- und Jugendhilfe Weidenkorb',
     location: 'Espelkamp',
@@ -38,7 +74,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-04'
   },
   {
-    id: '4',
+    id: '8',
     title: 'Hauswirtschaftliche Leitung (m/w/d) für unser Kinderhaus in Teil- oder Vollzeit',
     company: 'Kinder- und Jugendhilfe Weidenkorb',
     location: 'Lübbecke',
@@ -47,7 +83,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-04'
   },
   {
-    id: '5',
+    id: '9',
     title: 'Hauswirtschaftliche Leitung (m/w/d) für unser Kinderhaus in Teil- oder Vollzeit',
     company: 'Kinder- und Jugendhilfe Weidenkorb',
     location: 'Hüllhorst',
@@ -56,7 +92,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-04'
   },
   {
-    id: '6',
+    id: '10',
     title: 'Pflegehelfer für stationäre Krankenpflege (m/w/d)',
     company: 'Impuls Personal GmbH Filiale Köln',
     location: 'Köln',
@@ -65,7 +101,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-04'
   },
   {
-    id: '7',
+    id: '11',
     title: 'Gesundheits- und Krankenpflege Helfer (m/w/d)',
     company: 'Impuls Personal GmbH Filiale Köln',
     location: 'Köln',
@@ -74,7 +110,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-04'
   },
   {
-    id: '8',
+    id: '12',
     title: 'Pflegefachkraft (m/w/d) Krankenpflege',
     company: 'MANPOWER GmbH & Co. KG',
     location: 'Hannover',
@@ -83,7 +119,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-02'
   },
   {
-    id: '9',
+    id: '13',
     title: 'Pflegeassistent/Pflegeassistentin (Gesundheits- und Krankenpflege) (m/w/d)',
     company: 'Tempton Personaldienstleistungen GmbH NL Wittenberg',
     location: 'Lutherstadt Wittenberg',
@@ -92,7 +128,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-02'
   },
   {
-    id: '10',
+    id: '14',
     title: 'Pflegehilfskraft (m/w/d) Krankenpflege',
     company: 'WEISS Personalmanagement GmbH - Aschaffenburg',
     location: 'Aschaffenburg',
@@ -101,7 +137,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-01'
   },
   {
-    id: '11',
+    id: '15',
     title: 'Pflegefachmann (m/w/d) Krankenpflege - Wunschprämie!',
     company: 'KCS Medical GmbH',
     location: 'Korbach',
@@ -110,7 +146,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-27'
   },
   {
-    id: '12',
+    id: '16',
     title: 'Pflegefachkraft (Gesundheits- und Krankenpflege)',
     company: 'KCS Medical GmbH',
     location: 'Wiesbaden',
@@ -119,7 +155,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-27'
   },
   {
-    id: '13',
+    id: '17',
     title: 'Berufsanerkennung in der Gesundheits- und Krankenpflege',
     company: 'Universitätsklinikum Augsburg AdöR',
     location: 'Augsburg, Bayern',
@@ -128,7 +164,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-26'
   },
   {
-    id: '14',
+    id: '18',
     title: 'Pflegehelfer (m/w/d) - stationäre Krankenpflege',
     company: 'PerZukunft Arbeitsvermittlung GmbH&Co.KG',
     location: 'Berlin',
@@ -137,7 +173,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-25'
   },
   {
-    id: '15',
+    id: '19',
     title: 'Ein Herz für die Krankenpflege! (m/w/d)',
     company: 'MaNovoSante Personalmanagement GmbH & Co. KG',
     location: 'München',
@@ -146,7 +182,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-23'
   },
   {
-    id: '16',
+    id: '20',
     title: 'Pflegefachmann/Pflegefachfrau (Gesundheits- und Krankenpflege) (m/w/d)',
     company: 'Brekstar Medical GmbH',
     location: 'Regensburg',
@@ -155,7 +191,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-17'
   },
   {
-    id: '17',
+    id: '21',
     title: 'Pflegehelfer - stationäre Krankenpflege  (m/w/d)',
     company: 'PerZukunft Arbeitsvermittlung GmbH&Co.KG',
     location: 'Berlin',
@@ -164,7 +200,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-13'
   },
   {
-    id: '18',
+    id: '22',
     title: 'Gesundheits- und Krankenpflege  (m/w/d)',
     company: 'Caritasverband Mannheim e.V.',
     location: 'Mannheim',
@@ -173,7 +209,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-12'
   },
   {
-    id: '19',
+    id: '23',
     title: 'Pflegefachmann/frau (Gesundheits- und Krankenpflege)',
     company: 'Störmanns Hof Seniorenheim- Gemeinnützige Gesellschaft für Altenpflege mbH',
     location: 'Eslohe (Sauerland)',
@@ -182,7 +218,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-10'
   },
   {
-    id: '20',
+    id: '24',
     title: 'Altenpflegekraft (m/w/d)  stationäre Krankenpflege',
     company: 'PerZukunft Arbeitsvermittlung GmbH&Co.KG',
     location: 'Berlin',
@@ -191,48 +227,12 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-06'
   },
   {
-    id: '21',
+    id: '25',
     title: 'Pflegefachmann Gesundheits- und Krankenpflege (m/w/d)',
     company: 'Tempton Personaldienstleistungen GmbH NL Hamburg Medical',
     location: 'Rosengarten, Kreis Harburg',
     type: 'Vollzeit',
     description: 'Pflegefachmann Gesundheits- und Krankenpflege (m/w/d)',
-    postedAt: '2026-02-02'
-  },
-  {
-    id: '22',
-    title: 'Pflegefachman Gesundheits- und Krankenpflege (m/w/d)',
-    company: 'Tempton Personaldienstleistungen GmbH NL Hamburg Medical',
-    location: 'Buchholz in der Nordheide',
-    type: 'Vollzeit',
-    description: 'Pflegefachman Gesundheits- und Krankenpflege (m/w/d)',
-    postedAt: '2026-02-02'
-  },
-  {
-    id: '23',
-    title: 'Pflegeassistent/Pflegeassistentin (Gesundheits- und Krankenpflege) (m/w/d)',
-    company: 'Tempton Personaldienstleistungen GmbH NL Frankfurt Medical',
-    location: 'Hanau',
-    type: 'Vollzeit',
-    description: 'Pflegeassistent/Pflegeassistentin (Gesundheits- und Krankenpflege) (m/w/d)',
-    postedAt: '2026-02-02'
-  },
-  {
-    id: '24',
-    title: 'Pflegefachkraft (Gesundheits- und Krankenpflege) (m/w/d)',
-    company: 'stewe Personalservice GmbH & Co. KG - NL Krefeld',
-    location: 'Neuss',
-    type: 'Vollzeit',
-    description: 'Pflegefachkraft (Gesundheits- und Krankenpflege) (m/w/d)',
-    postedAt: '2026-02-02'
-  },
-  {
-    id: '25',
-    title: 'Pflegeassistentin Gesundheits- und Krankenpflege (m/w/d)',
-    company: 'AllcuraMed Personal GmbH Hamburg',
-    location: 'Hamburg',
-    type: 'Vollzeit',
-    description: 'Pflegeassistentin Gesundheits- und Krankenpflege (m/w/d)',
     postedAt: '2026-02-02'
   }
 ];
