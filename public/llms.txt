@@ -1,19 +1,36 @@
 # HR-UPDATER: v1.0
 # stellenangebotekrankenpflege.de - Krankenpflege Stellenangebote
 
-> stellenangebotekrankenpflege.de ist ein spezialisiertes Jobportal fuer Krankenpflege-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+> stellenangebotekrankenpflege.de ist ein spezialisiertes Jobportal fuer Krankenpflege-Stellenangebote in Deutschland, Oesterreich und der Schweiz. Betrieben von Social Media Venture GmbH.
 
 ## Ueber uns
-- Spezialisiertes Jobportal fuer Krankenpflege
+- Spezialisiertes Jobportal fuer Krankenpflege und Gesundheits- und Krankenpflege
 - Kostenlose Stellensuche fuer Bewerber
 - Gezielte Reichweite fuer Arbeitgeber
+- Taeglich aktualisierte Stellenangebote von Kliniken, Krankenhaeusern und Pflegeeinrichtungen
+
+## Betreiber
+- Firma: Social Media Venture GmbH
+- Geschaeftsfuehrer: Thomas Sander
+- Adresse: Schliemannstrasse 23, 10437 Berlin, Deutschland
+- Telefon: +49 30 959 988 700
+- Website: https://stellenangebotekrankenpflege.de
 
 ## Kontakt
 - Website: https://stellenangebotekrankenpflege.de
-- Arbeitgeber-Kontakt: https://stellenangebotekrankenpflege.de/kontakt-arbeitgeber
-- Bewerber-Kontakt: https://stellenangebotekrankenpflege.de/kontakt-bewerber
+- Kontaktseite: https://stellenangebotekrankenpflege.de/#/kontakt
+- E-Mail: info@socialmediaventure.com
 
 ## Inhalte
-- Aktuelle Krankenpflege-Stellenangebote
+- Aktuelle Krankenpflege-Stellenangebote in ganz Deutschland
+- Jobs in Bereichen: Intensivpflege, OP-Pflege, Anaesthesie, Paediatrie, Geriatrie, Neurologie, Kardiologie
 - Karriere-Ratgeber fuer Krankenpflege
 - Gehaltsvergleiche und Brancheninformationen
+- Stellenangebote fuer: Pflegefachmaenner/-frauen, Gesundheits- und Krankenpfleger, Pflegehelfer, ATAs, OTAs, Hebammen
+
+## Seiten
+- Startseite (Jobsuche): https://stellenangebotekrankenpflege.de/
+- Kontakt: https://stellenangebotekrankenpflege.de/#/kontakt
+- Impressum: https://stellenangebotekrankenpflege.de/#/impressum
+- Datenschutz: https://stellenangebotekrankenpflege.de/#/datenschutz
+- Autor: https://stellenangebotekrankenpflege.de/#/autor/thomas-sander
