@@ -17,7 +17,7 @@ const Datenschutz: React.FC = () => {
               <p>Vertreten durch: Thomas Sander</p>
               <p>Schliemannstraße 23, 10437 Berlin</p>
               <p>E-Mail: <a href="mailto:info@socialmediaventure.com" className="text-sky-600 hover:text-sky-700 underline">info@socialmediaventure.com</a></p>
-              <p>Telefon: +49 30 959 988 700</p>
+              <p>Telefon: +49 30 403 6654 32</p>
             </div>
           </section>
 

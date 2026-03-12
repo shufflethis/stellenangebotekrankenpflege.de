@@ -34,7 +34,7 @@ const Impressum: React.FC = () => {
           <section>
             <h2 className="text-xl font-bold text-slate-900 mb-3">Kontakt</h2>
             <div className="text-slate-700 leading-relaxed space-y-1">
-              <p>Telefon: <a href="tel:+4930959988700" className="text-sky-600 hover:text-sky-700 underline">+49 30 959 988 700</a></p>
+              <p>Telefon: <a href="tel:+4930403665432" className="text-sky-600 hover:text-sky-700 underline">+49 30 403 6654 32</a></p>
               <p>E-Mail: <a href="mailto:info@socialmediaventure.com" className="text-sky-600 hover:text-sky-700 underline">info@socialmediaventure.com</a></p>
             </div>
           </section>
